@@ -1,0 +1,93 @@
+.owl-theme .owl-controls {
+	text-align:center;
+	-webkit-tap-highlight-color:transparent
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+	position:absolute;
+	text-indent:-10000px;
+	font-size:14px;
+	margin:-20px 0 0 0;
+	background:rgba(255, 255, 255, 0.2);
+	display:block;
+	cursor:pointer;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	width:40px;
+	height:40px;
+	top:50%;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:before{
+	font-family:'FontAwesome';
+	width:40px;
+	height:40px;
+	font-size:28px;
+	line-height:40px;
+	text-align:center;
+	color:rgba(0, 0, 0, 0.3);
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:0px;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover:before{
+	color:#333;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+	background:rgba(255, 255, 255, 0.9);
+	color:#333;
+	text-decoration:none
+}
+.owl-theme .owl-controls .owl-nav .disabled {
+	opacity:.5;
+	cursor:default
+}
+.owl-theme .owl-dots .owl-dot {
+	display:inline-block;
+	zoom:1;
+	*display:inline
+}
+.owl-theme .owl-dots .owl-dot span {
+	width:10px;
+	height:10px;
+	margin:5px 7px;
+	background:#d6d6d6;
+	display:block;
+	-webkit-backface-visibility:visible;
+	-webkit-transition:opacity 200ms ease;
+	-moz-transition:opacity 200ms ease;
+	-ms-transition:opacity 200ms ease;
+	-o-transition:opacity 200ms ease;
+	transition:opacity 200ms ease;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background:#869791
+}
+/* custom css styles for carousel */
+.owl-nav .owl-prev {
+	left:-80px;
+}
+.owl-nav .owl-next {
+	right:-80px;
+}
+.owl-nav .owl-prev:before {
+	left:-80px;
+	content: "\f104";
+}
+.owl-nav .owl-next:before {
+	right:-80px;
+	content: "\f105";
+}
+.owl-theme:hover .owl-nav .owl-prev {
+	left:20px;
+}
+.owl-theme:hover .owl-nav .owl-next {
+	right:20px;
+}

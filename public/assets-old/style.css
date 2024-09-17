@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400italic|Montserrat:400,700|Raleway:400,100,200,300,500,600,700,800|Dancing+Script");
+@import url("css/bootstrap.css");
+@import url("css/icons.css");
+@import url("css/typography.css");
+@import url("css/scrollbar.css");
+@import url("css/animate.css");
+@import url("cloudslider/css/cloudslider.css");
+@import url("cubeportfolio/css/cubeportfolio.css");
+@import url("nivo-lightbox/nivo-lightbox.css");
+@import url("nivo-lightbox/themes/default/default.css");
+@import url("css/click-hover-effects.css");
+@import url("owl-carousel/assets/owl.carousel.css");
+@import url("owl-carousel/assets/owl.theme.default.min.css");
+@import url("css/theme.css");
+@import url("css/color.css");
+
+/* ==========================================================================
+   NOTE:
+   Please put your custom css styles after this line to make it easy
+   for you to manage your website whenever a new version of this template 
+   is available.
+   ========================================================================== */
+
+
+.reg-form{
+    position: fixed;
+    width:550px;
+    height:600px;
+    top: 100px;
+    z-index: 9999;
+    background: white;
+    height: auto;
+    left: 385px;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+
+.login-form{
+    position: fixed;
+    width:550px;
+    height:600px;
+    top: 200px;
+    z-index: 9999;
+    background: white;
+    height: auto;
+    left: 385px;
+    margin-top:0px;
+}
+
+@media only screen and (min-width:0px) and (max-width:320px){
+    .login-form{
+        position: fixed;
+        width:280px;
+        height:600px;
+        top: 60px;
+        z-index: 9999;
+        background: white;
+        height: auto;
+        left: 3px;
+        margin-top:0px;
+    }
+    
+    .reg-form{
+        position: fixed;
+        width:280px;
+        height:100px;
+        top: 60px;
+        z-index: 9999;
+        background: white;
+        height: auto;
+        left: 3px;
+        margin-top:0px;
+        margin-bottom:30px;  
+    }
+    
+}
+@media only screen and (min-width:321px) and (max-width:480px){
+    .login-form{
+        position: fixed;
+        width:280px;
+        height:600px;
+        top: 60px;
+        z-index: 9999;
+        background: white;
+        height: auto;
+        left: 80px;
+        margin-top:0px;
+    }
+    
+    .reg-form{
+        position: fixed;
+        width:280px;
+        height:600px;
+        top: 60px;
+        z-index: 9999;
+        background: white;
+        height: auto;
+        left: 30px;
+        margin-top:0px;
+        margin-bottom:30px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .login-form{
+        position: fixed;
+        width:550px;
+        height:600px;
+        top: 60px;
+        z-index: 9999;
+        background: white;
+        height: auto;
+        left: 80px;
+        margin-top:0px;
+    }
+    
+    .reg-form{position: fixed;
+        width:550px;
+        height:600px;
+        top: 60px;
+        z-index: 9999;
+        background: white;
+        height: auto;
+        left: 100px;
+        margin-top:0px;
+        margin-bottom:30px;
+    }
+ 
+}
+
+.navb {
+    overflow: hidden;
+    font-family: Arial;
+    padding:7px;
+}
+
+.navb a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropd {
+    float: left;
+    overflow: hidden;
+}
+
+.dropd .dropdbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px;
+    background-color: inherit;
+}
+
+/*
+.navb a:hover, .dropd:hover .dropdbtn {
+    background-color: red;
+}*/
+
+.dropd-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999999;
+    margin-top: 10px;
+}
+
+.dropd-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropd-content a:hover {
+    background-color: #ddd;
+}
+/*
+.dropd:hover .dropd-content {
+    display: block;
+}
+*/
+
+.white{
+    color:#FFF;
+}
+
+
+
+
+ .contact-button, .contact-button:focus, .contact-button:hover {
+    background-color: #ed323e !important;
+    color:#FFF !important;
+    bourder-color:#ed323e !important;
+}
